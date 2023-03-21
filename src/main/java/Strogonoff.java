@@ -1,16 +1,16 @@
 public class Strogonoff implements Food{
     @Override
     public String cookFood() {
-        return "The food is cooked and ready to eat";
+        return "Cooked the Strogonoff";
     }
 
     @Override
     public String eatFood() {
-        return "the food was eaten";
+        return "Eat the Strogonoff";
     }
 
     @Override
     public String recipeFood() {
-        return "Strogonoff can be made with chicken or meat";
+        return "Recipe for the Strogonoff";
     }
 }

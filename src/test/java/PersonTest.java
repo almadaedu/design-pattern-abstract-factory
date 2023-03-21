@@ -6,7 +6,7 @@ public class PersonTest {
     void mustCookPasta(){
         AbstractFoodFactory factory = new PastaFactory();
         Person person = new Person(factory);
-        assertEquals("Cooked the pasta", person.cookFood());
+        assertEquals("Cooked the Pasta", person.cookFood());
     }
 
     @Test
