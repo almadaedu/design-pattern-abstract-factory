@@ -1,2 +1,6 @@
-package PACKAGE_NAME;public class StrogonoffFactory {
+public class StrogonoffFactory implements AbstractFoodFactory{
+    @Override
+    public Food createFood() {
+        return new Strogonoff();
+    }
 }

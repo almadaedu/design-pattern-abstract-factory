@@ -1,5 +1,5 @@
-public class Recipe {
-    String eatFood();
-    String cookFood ();
+public interface Food {
+    String cookFood();
+    String eatFood ();
     String recipeFood();
 }

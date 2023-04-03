@@ -1,3 +1,3 @@
-public interface AbstractRecipeFactory {
+public interface AbstractFoodFactory {
     Food createFood();
 }

@@ -1,4 +1,4 @@
-public class Macarronada {
+public class Pasta implements Food{
     @Override
     public String cookFood() {
         return "The food is cooked and ready to eat";
@@ -11,6 +11,6 @@ public class Macarronada {
 
     @Override
     public String recipeFood() {
-        return "";
+        return "Pasta is mainly made from macaroni.";
     }
 }
